@@ -1,0 +1,72 @@
+{
+  "editor.fontSize": 16,
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Vue Theme",
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "prettier.printWidth": 160,
+  "vetur.format.defaultFormatter.html": "prettyhtml",
+  "vetur.format.defaultFormatter.css": "prettier",
+  "vetur.format.defaultFormatter.postcss": "prettier",
+  "vetur.format.defaultFormatter.scss": "prettier",
+  "vetur.format.defaultFormatter.less": "prettier",
+  "vetur.format.defaultFormatter.stylus": "stylus-supremacy",
+  "vetur.format.defaultFormatter.js": "prettier",
+  "vetur.format.defaultFormatter.ts": "prettier",
+  "vetur.format.options.tabSize": 2,
+  "vetur.format.defaultFormatterOptions": {
+    "prettyhtml": {
+      "printWidth": 160,
+      "singleQuote": false,
+      "wrapAttributes": false,
+      "sortAttributes": true
+    },
+    "prettier": {
+      "semi": false,
+      "singleQuote": true
+    }
+  },
+  "emmet.syntaxProfiles": {
+    "vue-html": "html",
+    "vue": "html",
+    "wxml": "html"
+  },
+  "window.menuBarVisibility": "default",
+  "window.zoomLevel": 0,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true
+  },
+  "files.associations": {
+    "*.wxml": "wxml",
+    "*.wpy": "vue",
+    "*.wxss": "css",
+    "*.vue": "vue",
+    "*.cjson": "jsonc",
+    "*.wxs": "javascript"
+  },
+  "vetur.validation.template": false,
+  "breadcrumbs.enabled": true,
+  "breadcrumbs.filePath": "on",
+  "breadcrumbs.symbolPath": "last",
+  "diffEditor.ignoreTrimWhitespace": true,
+  "javascript.preferences.quoteStyle": "single",
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.lineHistory.enabled": true,
+  "prettier.tabWidth": 2,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "emmet.includeLanguages": {
+    "wxml": "html"
+  },
+  "minapp-vscode.disableAutoConfig": true,
+  "eslint.autoFixOnSave": true,
+}
